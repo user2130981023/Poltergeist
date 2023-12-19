@@ -1,28 +1,236 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Poltergeist</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>PoltergeistGUI™</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=11" />
+    <script src="https://cdn.tailwindcss.com"></script> <!-- Style -->
+    <link rel="stylesheet" href="style.css"> <!-- Style -->
+    <link rel="stylesheet" href="button.css"> <!-- Style -->
+    <link rel="stylesheet" href="animation.css"> <!-- Style -->
 </head>
-    <header>
-        <a href="#" class="logo">Poltergeist GUI</a>
-        <nav>
-            <a href="https://github.com/user2130981023" target="_blank" class="active"><i class="fa-brands fa-github">&nbsp;&nbsp;</i>Github</a>
-            <a href="https://discord.gg/EaRpAWuH9M" target="_blank"><i class="fa-brands fa-discord"></i>&nbsp;&nbsp;Discord</a>
-            <a href="https://www.youtube.com/@dylanmoss9623" target="_blank"><i class="fa-brands fa-youtube"></i>&nbsp;&nbsp;Youtube</a>
-            <a href="https://discord.gg/mwEJpuSQn8" target="_blank">&nbsp;&nbsp;<i class="fa-duotone fa-medal"></i>Early Access</a>
-            <a href="https://cdn.discordapp.com/attachments/1178142950325235802/1185747159434412073/Poltergeist.dll?ex=6590bc18&is=657e4718&hm=a006e55c390501e467e9f81583eb2b6f949d875a0e8ab3bfb568d4d42cb98303&%22%3E%22" download><i class="fa-solid fa-file-arrow-down"></i>&nbsp;&nbsp;Download Menu!</a>
-        </nav>
-    </header>
-<main>
-    <body>
-        <h2>Trailer!</h2>
-        <iframe src="https://www.youtube.com/embed/NqyeH2mupjA" width="560" height="315" title="A YouTube video" frameborder="0" allowfullscreen></iframe>
-    </body>
-</main>
+<body>
+<!-- Header -->
+<div class="topnav dg py-3 border-b border-zinc-800">
+    <div class="content dg text-left">
+        <div class="center text-center">
+            <a class="text-stone-300 text-base font-semibold mr-5 fnt"><span class="maincol-txt -ml-1 pt-1 text-base font-semibold fnt">PoltergeistGUI™</a>
+        </div>
+
+    </div>
+</div>
+
+<div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 w-full gap-5 content mt-10 text-center center">
+  <button id="Gorilla tag-activate" onclick="gorilla()" class="animate one fadeInUpBig relative overflow-hidden rounded cstShdw cstShdwFix cursor-pointer cstWH">
+    <img draggable="false" class="image-opacity object-cover w-full h-48" src="images/gorilla tag.png" alt=""/>
+
+    <div class="absolute top-0 left-0 px-6 py-4 mt-5">
+      <h4 class="text-lg fnt font-bold text-stone-200">Gorilla Tag</h4>
+    </div>
+  </button>
+
+    <button id="warzone-activate" onclick="warzone()" class="animate three fadeInUpBig relative overflow-hidden rounded cstShdw cstShdwFix cursor-pointer cstWH">
+      <img draggable="false" class="image-opacity object-cover w-full h-48" src="images/discord.jpg" alt=""/>
+  
+      <div class="absolute top-0 left-0 px-6 py-4 mt-5">
+        <h4 class="text-lg fnt font-bold text-stone-200">Discord</h4>
+      </div>
+    </button>
+  
+    <button id="csgo-activate" onclick="csgo()" class="animate four fadeInUpBig relative overflow-hidden rounded cstShdw cstShdwFix cursor-pointer cstWH">
+      <img draggable="false" class="image-opacity object-cover w-full h-48" src="images/cs2.jpg" alt=""/>
+  
+      <div class="absolute top-0 left-0 px-6 py-4 mt-5">
+        <h4 class="text-lg fnt font-bold text-stone-200">Csgo</h4>
+      </div>
+    </button>
+
+    <button id="rust-activate" onclick="rust()" class="animate five fadeInUpBig relative overflow-hidden rounded cstShdw cstShdwFix cursor-pointer cstWH">
+      <img draggable="false" class="image-opacity object-cover w-full h-48" src="images/extra.jpg" alt=""/>
+  
+      <div class="absolute top-0 left-0 px-6 py-4 mt-5">
+        <h4 class="text-lg fnt font-bold text-stone-200">Extra</h4>
+      </div>
+    </button>
+
+  
+</div>
+
+<br>
+<hr style="width: 1100px;" class="animate seven fadeInUpBig center border-zinc-800 mt-2">
+
+
+<!--Fortnite Start-->
+
+
+     <<div id="fortnite" class="animate two fadeInUpBig dg cstShdw rounded cstHegt2">
+    <a draggable="false" download href="https://cdn.discordapp.com/attachments/1036722997496655953/1039985149435183246/Remake_by_floppa.exe" download="file" class="group cstHegt block rounded overflow-hidden relative mb-2 lg:mb-3">
+    <img draggable="false" src="Fortnite.png"  class="w-full h-full object-cover object-center group-hover:scale-110 transition duration-200" />
+      <span class="bg-green-600 text-stone-200 text-sm  uppercase rounded-br absolute left-0 top-0 px-3 py-1">undetected</span>
+    </a>
+    <div class="text-left ml-2">
+        <a class="text-sm text-stone-300 block font-bold mt-1"></a>
+    </div>
+    <div class="text-left mt-1 ml-2 pt-1">
+      <a class="text-sm text-stone-300 block font-thin"></a>
+  </div>
+      <div class="text-left mt-1 ml-2 pt-1">
+      <a class="text-sm text-stone-300 block font-thin"></a>
+  </div>
+></div>
+</div>
+
+<!--Gorila tag Start-->
+
+<div id="valorant" class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 w-full gap-5 content mt-10 pb-5">  
+  <div id="valorant" class="animate one fadeInUpBig dg cstShdw rounded cstHegt2">
+    <a draggable="false" download href="Poltergeist.dll" download="file" class="group cstHegt block rounded overflow-hidden relative mb-2 lg:mb-3">
+    <img draggable="false" src="images/gorilla tag.png"  class="w-full h-full object-cover object-center group-hover:scale-110 transition duration-200" />
+    <span class="bg-green-600 text-stone-200 text-sm  uppercase rounded-br absolute left-0 top-0 px-3 py-1"><b>Undetected!</b></span>
+    </a>
+    <div class="text-left ml-2">
+        <a class="text-sm text-stone-300 block font-bold mt-1">Gorilla Tag Gui</a>
+    </div>
+    <div class="text-left mt-1 ml-2 pt-1">
+      <a class="text-sm text-stone-300 block font-thin">Developer: Z1ggy</a>
+  </div>
+      <div class="text-left mt-1 ml-2 pt-1">
+      <a class="text-sm text-stone-300 block font-thin">Type: <b>Internal</b></a>
+  </div>
+</div>
+<!-- 2nd line add link to download-->
+ <div id="valorant" class="animate two fadeInUpBig dg cstShdw rounded cstHegt2">
+    <a draggable="false" download href="MonkeModManager.exe" download="file" class="group cstHegt block rounded overflow-hidden relative mb-2 lg:mb-3">
+    <img draggable="false" src="images/question.png"  class="w-full h-full object-cover object-center group-hover:scale-110 transition duration-200" />
+      <span class="bg-green-600 text-stone-200 text-sm  uppercase rounded-br absolute left-0 top-0 px-3 py-1"><b>Helps</b></span>
+    </a>
+    <div class="text-left ml-2">
+        <a class="text-sm text-stone-300 block font-bold mt-1">Monkey Mod Manager</a>
+    </div>
+    <div class="text-left mt-1 ml-2 pt-1">
+      <a class="text-sm text-stone-300 block font-thin">Developer: DeadlyKitten</a>
+  </div>
+      <div class="text-left mt-1 ml-2 pt-1">
+      <a class="text-sm text-stone-300 block font-thin">Type: <b>Exe</b></a>
+  </div>
+</div>
+</div>
+
+
+
+<!-- Warzone Start-->
+
+<div id="warzone" class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 w-full gap-5 content mt-10 pb-5">  
+  <div id="warzone" class="animate one fadeInUpBig dg cstShdw rounded cstHegt2">
+    <a draggable="false" download href="https://discord.gg/mwEJpuSQn8" target="_blank" download="file" class="group cstHegt block rounded overflow-hidden relative mb-2 lg:mb-3">
+    <img draggable="false" src="images/discord.jpg"  class="w-full h-full object-cover object-center group-hover:scale-110 transition duration-200" />
+      <span class="bg-green-600 text-stone-200 text-sm  uppercase rounded-br absolute left-0 top-0 px-3 py-1"><b>Join Now!</b>></span>
+    </a>
+    <div class="text-left ml-2">
+        <a class="text-sm text-stone-300 block font-bold mt-1"><b>Our discord</b></a>
+    </div>
+    <div class="text-left mt-1 ml-2 pt-1">
+      <a class="text-sm text-stone-300 block font-thin">Developer: z1ggy</a>
+  </div>
+      <div class="text-left mt-1 ml-2 pt-1">
+      <a class="text-sm text-stone-300 block font-thin">Type: Social</a>
+  </div>
+</div>
+</div>
+
+<!-- CSGO Start-->
+
+<div id="csgo" class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 w-full gap-5 content mt-10 pb-5">  
+  <div id="csgo" draggable="false" class="animate one fadeInUpBig dg cstShdw rounded cstHegt2">
+    <a draggable="false" download href="https://anyx.gg/" target="_blank" download="file" class="group cstHegt block rounded overflow-hidden relative mb-2 lg:mb-3">
+    <img src="images/cs2.jpg"  class="w-full h-full object-cover object-center group-hover:scale-110 transition duration-200" />
+      <span class="bg-green-600 text-stone-200 text-sm  uppercase rounded-br absolute left-0 top-0 px-3 py-1">undetected</span>
+    </a>
+    <div class="text-left ml-2">
+        <a class="text-sm text-stone-300 block font-bold mt-1">Csgo Free Esp</a>
+    </div>
+    <div class="text-left mt-1 ml-2 pt-1">
+      <a class="text-sm text-stone-300 block font-thin">Developer: anyx.gg</a>
+  </div>
+      <div class="text-left mt-1 ml-2 pt-1">
+      <a class="text-sm text-stone-300 block font-thin">Type: <b>External</b></a>
+  </div>
+      <div class="text-left mt-1 ml-2 pt-1">
+      <a class="text-sm text-stone-300 block font-thin">Requirements: <b>Account, Medal.tv installed</b></a>
+    </div>
+</div>
+</div>
+
+<!-- Rust Start -->
+
+<div id="rust" class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 w-full gap-5 content mt-10 pb-5">  
+	  <div id="rust" class="animate one fadeInUpBig dg cstShdw rounded cstHegt2">
+    <a draggable="false" download href="https://www.youtube.com/channel/UCJOzpsZM2ZAL481R_-RBWtw" target="_blank" class="group cstHegt block rounded overflow-hidden relative mb-2 lg:mb-3">
+    <img draggable="false" src="images/extra.jpg"  class="w-full h-full object-cover object-center group-hover:scale-110 transition duration-200" />
+      <span class="bg-green-600 text-stone-200 text-sm  uppercase rounded-br absolute left-0 top-0 px-3 py-1">Youtube :D</span>
+    </a>
+    <div class="text-left ml-2">
+        <a class="text-sm text-stone-300 block font-bold mt-1">Youtube</a>
+    </div>
+    <div class="text-left mt-1 ml-2 pt-1">
+      <a class="text-sm text-stone-300 block font-thin">Developer: B0B</a>
+  </div>
+      <div class="text-left mt-1 ml-2 pt-1">
+      <a class="text-sm text-stone-300 block font-thin">Type: Channel</a>
+  </div>
+</div>
+    <div id="rust" class="animate one fadeInUpBig dg cstShdw rounded cstHegt2">
+    <a draggable="false" download href="https://www.youtube.com/channel/UCdaQpnU-Wb32cnZdnstMYvg" target="_blank" class="group cstHegt block rounded overflow-hidden relative mb-2 lg:mb-3">
+    <img draggable="false" src="images/extra.jpg"  class="w-full h-full object-cover object-center group-hover:scale-110 transition duration-200" />
+      <span class="bg-green-600 text-stone-200 text-sm  uppercase rounded-br absolute left-0 top-0 px-3 py-1">Youtube :D</span>
+    </a>
+    <div class="text-left ml-2">
+        <a class="text-sm text-stone-300 block font-bold mt-1">Youtube</a>
+    </div>
+    <div class="text-left mt-1 ml-2 pt-1">
+      <a class="text-sm text-stone-300 block font-thin">Developer: z1ggy</a>
+  </div>
+      <div class="text-left mt-1 ml-2 pt-1">
+      <a class="text-sm text-stone-300 block font-thin">Type: Channel</a>
+  </div>
+</div>
+</div>
+
+<!-- Other Start -->
+<!---->
+<div id="other" class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 w-full gap-5 content mt-10 pb-5">  
+	  <div id="other" class="animate one fadeInUpBig dg cstShdw rounded cstHegt2">
+    <a draggable="false" download href="" class="group cstHegt block rounded overflow-hidden relative mb-2 lg:mb-3">
+    <img draggable="false" src=""  class="w-full h-full object-cover object-center group-hover:scale-110 transition duration-200" />
+      <span class="bg-red-600 text-stone-200 text-sm  uppercase rounded-br absolute left-0 top-0 px-3 py-1">testing</span>
+    </a>
+    <div class="text-left ml-2">
+        <a class="text-sm text-stone-300 block font-bold mt-1">PolyGon</a>
+    </div>
+    <div class="text-left mt-1 ml-2 pt-1">
+      <a class="text-sm text-stone-300 block font-thin">Developer: clipz#0912</a>
+  </div>
+      <div class="text-left mt-1 ml-2 pt-1">
+      <a class="text-sm text-stone-300 block font-thin">Type: Internal</a>
+  </div>
+</div>
+</div>
+
+
+<!-- Footer -->
+<footer class="relative content mt-20">
+  <hr class="animate fadeInUpBig five my-2 border-zinc-800">
+  <div class="flex flex-wrap items-center md:justify-between justify-center">
+    <div class="w-full md:w-4/12 px-1 mx-auto text-center">
+      <div class="animate fadeInUpBig four hvr-underline-from-center text-sm text-stone-400 font-semibold py-1">
+          <a href="index.html" class="maincol-txt">Home</a> | <a href="Credits.html" class="maincol-txt">Credits</a>
+      </div>
+    </div>
+  </div>
+</div>
+</footer>
+
+</body>
+<script src="assets/security.js"></script> 
+<script src="main.js"></script> 
 </html>
